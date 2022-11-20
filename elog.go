@@ -19,7 +19,7 @@ const (
 var (
 	globalSeverity int        = severityInfo
 	mutex          sync.Mutex = sync.Mutex{}
-	levelString               = flag.String("log-level", "-log-level={INFO", "DEBUG, WARNING, CRITICAL}")
+	levelString               = flag.String("log-level", "-log-level={INFO", "DEBUG, WARNING, ERROR, CRITICAL}")
 	logLevelSet    bool       = false
 )
 
